@@ -21,3 +21,7 @@ Inside the function, create an event handler that runs the keyPlay as an event h
 
 **5.** Inside the function, create a second event handler property that runs the keyReturn when a mouseup event fires on any note.
 
+**6.** At the beginning of the code, we have variable name assignments for the keys array and the empty notes array. There is also a function looping through the keys array and pushing the keys elements to the notes array to be assigned a variable name.
+
+Now, you must create a .forEach loop that will pass the elements in the notes array through your event assignment function.
+
