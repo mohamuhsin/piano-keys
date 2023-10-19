@@ -25,3 +25,4 @@ Inside the function, create an event handler that runs the keyPlay as an event h
 
 Now, you must create a .forEach loop that will pass the elements in the notes array through your event assignment function.
 
+**7.** Now, the program knows what to do when each piano key has a mousedown or mouseup event fired on it. Run your code and see how it works!
