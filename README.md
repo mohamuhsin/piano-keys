@@ -26,3 +26,9 @@ Inside the function, create an event handler that runs the keyPlay as an event h
 Now, you must create a .forEach loop that will pass the elements in the notes array through your event assignment function.
 
 **7.** Now, the program knows what to do when each piano key has a mousedown or mouseup event fired on it. Run your code and see how it works!
+
+**8.** Next, there are variables that represent the progress buttons in the song box below that allow students to progress the piano.
+
+The nextOne, nextTwo, nextThree, and startOver change the lyrics and musical notes of the song to help the student play along. In the beginning of the song the only button the student needs is nextOne. Because of this the .hidden properties of the other buttons are assigned the value of true.
+
+Now you must create events on all the progress buttons. First, create an event handler property with a click event on the nextOne element.
