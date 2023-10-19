@@ -12,3 +12,6 @@ Be sure to use the .target property in the function because the target is being 
 
 **2.** Next, create a function named keyReturn that returns the background color of the keys to their default with an empty string '' when the mouse is released on the element. Be sure to use the .target property.
 
+**3.** Now that you have created two functions that change the color of the key elements, you must assign them as the values of event handler properties.
+
+Create a named function and leave the code block blank for now. This function will be used later on to assign events to the keys, so it should take one parameter — you can call it note.
