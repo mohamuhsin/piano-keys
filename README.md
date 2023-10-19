@@ -19,5 +19,5 @@ Create a named function and leave the code block blank for now. This function wi
 **4.** Inside the function, create an event handler that runs the keyPlay as an event handler when a mousedown event fires on any note.
 Inside the function, create an event handler that runs the keyPlay as an event handler when a mousedown event fires on any note.
 
-**5.**Inside the function, create a second event handler property that runs the keyReturn when a mouseup event fires on any note.
+**5.** Inside the function, create a second event handler property that runs the keyReturn when a mouseup event fires on any note.
 
