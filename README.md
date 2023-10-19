@@ -10,4 +10,5 @@ After the second comment, create a function named keyPlay that changes the backg
 
 Be sure to use the .target property in the function because the target is being modified in this case.
 
+**2.** Next, create a function named keyReturn that returns the background color of the keys to their default with an empty string '' when the mouse is released on the element. Be sure to use the .target property.
 
