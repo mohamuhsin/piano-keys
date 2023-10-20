@@ -58,6 +58,12 @@ Hide the nextTwo button by changing the .hidden property to hide the nextTwo but
 
 **13.** Once the student has reached this point of the Happy Birthday song the lyrics changes from HAP-PY BIRTH-DAY TO YOU to HAP-PY BIRTH-DAY DEAR FRI-END.
 
+**14.** Now you have the lyrics HAP-PY BIRTH-DAY DEAR FRI-. To finish the line, you must add the -END to the song box under the piano.
+
+The -END element is stored in the lastLyric variable.
+
+Add a statement to the event handler function for nextTwo that changes the display property of lastLyric to 'inline-block'.
+
 Make the following changes to the lyrics in the function when the button is clicked:
 
 Change the content of the element with an ID of word-five to DEAR.
