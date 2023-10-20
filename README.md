@@ -78,3 +78,5 @@ Change the content of the element with an ID of letter-note-five to C.
 Change the content of the element with an ID of letter-note-six to B.
 
 Change the content of the element with an ID of word-six to FRI-.
+
+**16.** Create an event handler property with a click event on the nextThree element.
