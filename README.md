@@ -114,3 +114,7 @@ Change the content of the element with an ID of letter-note-four to C.
 Change the content of the element with an ID of letter-note-five to D.
 
 Change the content of the element with an ID of letter-note-six to C.
+
+**20.** Now you have the lyricsHAP-PY BIRTH-DAY TO YOU! -END — that couldn’t be right! To finish the line you must get rid of the “-end” in the song box.
+
+Add a statement to the event handler function for nextThree that changes the display property of lastLyric back to 'none'.
