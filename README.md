@@ -49,3 +49,8 @@ Change the content of the element with an ID of letter-note-five to D.
 Change the content of the element with an ID of letter-note-six to C.
 
 **11.** Create another event handler property with a click event on the button element called nextTwo. Then assign the property to the value of an anonymous event handler function.
+
+**12.** Make the following changes to the button that appears when nextTwo is clicked:
+
+Reveal the nextThree button by changing the .hidden property to make the nextThree button appear.
+Hide the nextTwo button by changing the .hidden property to hide the nextTwo button.
