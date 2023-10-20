@@ -47,3 +47,5 @@ Add the following changes to the nextOne event handler function so the musical n
 Change the content of the element with an ID of letter-note-five to D.
 
 Change the content of the element with an ID of letter-note-six to C.
+
+**11.** Create another event handler property with a click event on the button element called nextTwo. Then assign the property to the value of an anonymous event handler function.
