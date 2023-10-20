@@ -68,4 +68,13 @@ Make the following changes to the lyrics in the function when the button is clic
 
 Change the content of the element with an ID of word-five to DEAR.
 
+**15.** A click event firing on the second button must also change the music notes to guide the piano student through the song.
+
+Add the following changes to the nextTwo event handler function so the musical notes change when the button is clicked:
+
+Change the content of the element with an ID of letter-note-three to G.
+Change the content of the element with an ID of letter-note-four to E.
+Change the content of the element with an ID of letter-note-five to C.
+Change the content of the element with an ID of letter-note-six to B.
+
 Change the content of the element with an ID of word-six to FRI-.
