@@ -100,3 +100,17 @@ Change the content of the element with an ID of word-four to DAY
 Change the content of the element with an ID of word-five to TO.
 
 Change the content of the element with an ID of word-six to YOU!.
+
+**19.** Add the following changes to the nextThree event handler function so the musical notes change when the button is clicked.
+
+Change the content of the element with an ID of letter-note-one to F.
+
+Change the content of the element with an ID of letter-note-two to F.
+
+Change the content of the element with an ID of letter-note-three to E.
+
+Change the content of the element with an ID of letter-note-four to C.
+
+Change the content of the element with an ID of letter-note-five to D.
+
+Change the content of the element with an ID of letter-note-six to C.
