@@ -80,3 +80,9 @@ Change the content of the element with an ID of letter-note-six to B.
 Change the content of the element with an ID of word-six to FRI-.
 
 **16.** Create an event handler property with a click event on the nextThree element.
+
+**17.** Using an anonymous event handler function, make the following changes to the button that appears when nextThree is clicked:
+
+Reveal the startOver button by changing the .hidden property to make the startOver button appear.
+
+Hide the nextThree button by changing the .hidden property to hide the nextThree button.
