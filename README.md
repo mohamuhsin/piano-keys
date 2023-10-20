@@ -53,4 +53,5 @@ Change the content of the element with an ID of letter-note-six to C.
 **12.** Make the following changes to the button that appears when nextTwo is clicked:
 
 Reveal the nextThree button by changing the .hidden property to make the nextThree button appear.
+
 Hide the nextTwo button by changing the .hidden property to hide the nextTwo button.
