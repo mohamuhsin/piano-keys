@@ -121,4 +121,4 @@ Add a statement to the event handler function for nextThree that changes the dis
 
 **21.** Congrats, you’ve completed the Piano Player! Play around with the piano and the song box to fire all the events.
 
-**21.** Congrats, you’ve completed the Piano Player! 
+**21.** Congrats, you’ve completed the Piano Pl
