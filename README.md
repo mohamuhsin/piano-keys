@@ -39,3 +39,11 @@ Using an anonymous event handler function, make the following changes to the but
 
 Reveal the nextTwo button by changing the .hidden property to make the nextTwo button appear.
 Hide the nextOne button by changing the .hidden property to hide the nextOne button.
+
+**10.** Next, a click event firing on the nextOne must change the music notes that guide the piano student through the song.
+
+Add the following changes to the nextOne event handler function so the musical notes change when the button is clicked.
+
+Change the content of the element with an ID of letter-note-five to D.
+
+Change the content of the element with an ID of letter-note-six to C.
