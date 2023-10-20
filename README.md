@@ -55,3 +55,11 @@ Change the content of the element with an ID of letter-note-six to C.
 Reveal the nextThree button by changing the .hidden property to make the nextThree button appear.
 
 Hide the nextTwo button by changing the .hidden property to hide the nextTwo button.
+
+**13.** Once the student has reached this point of the Happy Birthday song the lyrics changes from HAP-PY BIRTH-DAY TO YOU to HAP-PY BIRTH-DAY DEAR FRI-END.
+
+Make the following changes to the lyrics in the function when the button is clicked:
+
+Change the content of the element with an ID of word-five to DEAR.
+
+Change the content of the element with an ID of word-six to FRI-.
