@@ -32,3 +32,10 @@ Now, you must create a .forEach loop that will pass the elements in the notes ar
 The nextOne, nextTwo, nextThree, and startOver change the lyrics and musical notes of the song to help the student play along. In the beginning of the song the only button the student needs is nextOne. Because of this the .hidden properties of the other buttons are assigned the value of true.
 
 Now you must create events on all the progress buttons. First, create an event handler property with a click event on the nextOne element.
+
+**9.** To begin modifying the song box, you must switch the progress buttons first.
+
+Using an anonymous event handler function, make the following changes to the button that appears after nextOne is clicked:
+
+Reveal the nextTwo button by changing the .hidden property to make the nextTwo button appear.
+Hide the nextOne button by changing the .hidden property to hide the nextOne button.
