@@ -86,3 +86,17 @@ Change the content of the element with an ID of word-six to FRI-.
 Reveal the startOver button by changing the .hidden property to make the startOver button appear.
 
 Hide the nextThree button by changing the .hidden property to hide the nextThree button.
+
+**18.** Add the following changes to the nextThree event handler function so the lyrics change when this button is clicked.
+
+Change the content of the element with an ID of word-one to HAP-.
+
+Change the content of the element with an ID of word-two to PY.
+
+Change the content of the element with an ID of word-three to BIRTH.
+
+Change the content of the element with an ID of word-four to DAY
+
+Change the content of the element with an ID of word-five to TO.
+
+Change the content of the element with an ID of word-six to YOU!.
