@@ -118,3 +118,5 @@ Change the content of the element with an ID of letter-note-six to C.
 **20.** Now you have the lyricsHAP-PY BIRTH-DAY TO YOU! -END — that couldn’t be right! To finish the line you must get rid of the “-end” in the song box.
 
 Add a statement to the event handler function for nextThree that changes the display property of lastLyric back to 'none'.
+
+**21.** Congrats, you’ve completed the Piano Player! Play around with the piano and the song box to fire all the events.
