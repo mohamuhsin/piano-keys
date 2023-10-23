@@ -20,10 +20,20 @@ const keys = [
   });
   
   // Write named functions that change the color of the keys below
-  
   // Write a named function with event handler properties
-  
   // Write a loop that runs the array elements through the function
+  function keyPlay(e){
+  console.log(e)
+  e.target.style.backgroundColor = 'maroon'
+  }
+  let allKeys = document.querySelectorAll('.key, .black-key')
+  allKeys.forEach(key => key.addEventListener('mousedown', keyPlay))
+  
+  function keyReturn(e){
+    e.target.style.backgroundColor = e.target.className == 'key' ? '' : ''
+  }
+  allKeys.forEach(key => key.addEventListener('mouseup', keyReturn))
+  
   
   // These variables store the buttons that progress the user through the lyrics
   let nextOne = document.getElementById("first-next-line");
@@ -40,12 +50,49 @@ const keys = [
   startOver.hidden = true;
   
   // Write anonymous event handler property and function for the first progress button
-  
+  function nxtOne(){
+    nextOne.hidden = true
+    nextTwo.hidden = false;
+    document.getElementById('letter-note-five').innerHTML = 'D'
+    document.getElementById('letter-note-six').innerHTML = 'C'
+  }
+  nextOne.addEventListener('click', nxtOne)
   // Write anonymous event handler property and function for the second progress button
   
-  // Write anonymous event handler property and function for the third progress button
+  function nxtTwo(){
+    nextTwo.hidden = true;
+    nextThree.hidden = false
+    document.getElementById('letter-note-three').innerHTML = 'G'
+    document.getElementById('letter-note-four').innerHTML = 'E'
+    document.getElementById('letter-note-five').innerHTML = 'C'
+    document.getElementById('letter-note-six').innerHTML = 'B'
+    document.getElementById('word-five').innerHTML = 'DEAR'
+    document.getElementById('word-six').innerHTML = 'FRI-'
+    lastLyric.style.display = 'inline-block'
   
+  }
+  nextTwo.addEventListener('click', nxtTwo)
+  // Write anonymous event handler property and function for the third progress button
+  function nxtThree(){
+    nextThree.hidden = true
+    startOver.hidden = false
+    document.getElementById('word-one').innerHTML = 'HAP-'
+    document.getElementById('word-two').innerHTML = 'PY'
+    document.getElementById('word-three').innerHTML = 'BIRTH'
+    document.getElementById('word-four').innerHTML = 'DAY'
+    document.getElementById('word-five').innerHTML = 'TO'
+    document.getElementById('word-six').innerHTML = 'YOU'
+    document.getElementById('letter-note-one').innerHTML = 'F'
+    document.getElementById('letter-note-two').innerHTML = 'F'
+    document.getElementById('letter-note-three').innerHTML = 'E'
+    document.getElementById('letter-note-four').innerHTML = 'C'
+    document.getElementById('letter-note-five').innerHTML = 'D'
+    document.getElementById('letter-note-six').innerHTML = 'C'
+    lastLyric.style.display = 'none'
+  }
+  nextThree.addEventListener('click', nxtThree)
   // This is the event handler property and function for the startOver button
+  
   startOver.onclick = function () {
     nextOne.hidden = false;
     startOver.hidden = true;
@@ -62,3 +109,4 @@ const keys = [
     document.getElementById("word-six").innerHTML = "YOU!";
     document.getElementById("letter-note-six").innerHTML = "B";
   };
+  
