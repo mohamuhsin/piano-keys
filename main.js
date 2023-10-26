@@ -62,3 +62,5 @@ startOver.onclick = function () {
   document.getElementById("word-six").innerHTML = "YOU!";
   document.getElementById("letter-note-six").innerHTML = "B";
 };
+
+// end of assignment.
