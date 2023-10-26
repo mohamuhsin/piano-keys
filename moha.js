@@ -87,9 +87,9 @@ nextThree.onclick = function () {
   startOver.hidden = false;
   nextThree.hidden = true;
 
-  document.getElementById("word-one").innerHTML = "PY";
+  document.getElementById("word-one").innerHTML = "HAP-";
 
-  document.getElementById("word-two").innerHTML = "HAP-";
+  document.getElementById("word-two").innerHTML = "PY";
 
   document.getElementById("word-three").innerHTML = "BIRTH";
 
