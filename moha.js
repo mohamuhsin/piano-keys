@@ -21,7 +21,7 @@ keys.forEach(function (key) {
 
 // Write named functions that change the color of the keys below
 function keyPlay(event) {
-  event.target.style.backgroundColor = "#6df0c2";
+  event.target.style.backgroundColor = "blue";
 }
 
 function keyReturn(event) {
@@ -30,11 +30,11 @@ function keyReturn(event) {
 
 // Write a named function with event handler properties
 let eventAssignment = (note) => {
-  note.onmousedown = function () {
+  note.onmousedown = function (event) {
     keyPlay(event);
   };
 
-  note.onmouseup = function () {
+  note.onmouseup = function (event) {
     keyReturn(event);
   };
 };
