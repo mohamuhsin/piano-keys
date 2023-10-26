@@ -84,8 +84,8 @@ nextTwo.onclick = function () {
 };
 // Write anonymous event handler property and function for the third progress button
 nextThree.onclick = function () {
-  startOver.hidden = false;
-  nextThree.hidden = true;
+  startOver.hidden = true;
+  nextThree.hidden = false;
 
   document.getElementById("word-one").innerHTML = "HAP-";
 
